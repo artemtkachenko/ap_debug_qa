@@ -13,7 +13,7 @@ class BaseTest(unittest.TestCase):
         desired_caps['platformName'] = 'Android'
         desired_caps['platformVersion'] = '5.1.1'
         desired_caps['deviceName'] = 'Galaxy A3'
-        desired_caps['app'] = 'C:/Users/Vadim/Desktop/ap_qa_debug/app-qa-debug.apk'
+        desired_caps['app'] = self.__APP_PATH
         self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
         self.driver.implicitly_wait(10)
 
