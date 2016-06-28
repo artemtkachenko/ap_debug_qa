@@ -11,5 +11,5 @@ appium --address 127.0.0.1 --port 4723 #_start appium_
 
 - - - -
 
-#### Run test: python Test.py ####
+ Run test:  _python Test.py_
 
