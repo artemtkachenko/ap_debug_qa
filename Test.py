@@ -1,5 +1,6 @@
 from Pages.SignUpPage import SignIn
 from BaseTest import  BaseTest
+import unittest
 
 class MyTestCase(BaseTest):
 
@@ -11,13 +12,8 @@ class MyTestCase(BaseTest):
 
 
 
-
-
-
-
-
-
-
+if __name__ == '__main__':
+    unittest.main()
 
 
 
